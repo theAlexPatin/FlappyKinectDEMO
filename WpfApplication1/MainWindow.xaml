@@ -1,0 +1,9 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Flappy Kinect" Height="570" Width="960" Closing="Window_Closing">
+    <Grid>
+        <Image x:Name="ColorImage" HorizontalAlignment="Left" VerticalAlignment="Top" Stretch="UniformToFill" />
+        <Image x:Name="GameImage" VerticalAlignment="Top" HorizontalAlignment="Left" Stretch="UniformToFill"/>
+    </Grid>
+</Window>
